@@ -12,6 +12,6 @@ Here's what I see when I run the test:
 
 ![](results.png)
 
-The value `456` comes from the named export in file1.js
+The value `456` comes from the named export in `file1.js`, not the wildcard-exported file (`other.js`)
 
-Changing the order of the exports in file1.js has no effect - the rule seems to be "named exports win over wildcard exports", rather than "last export wins".
+Changing the order of the exports in `file1.js` has no effect - it will still print `456`. The rule seems to be "named exports win over wildcard exports", rather than "last export wins".
