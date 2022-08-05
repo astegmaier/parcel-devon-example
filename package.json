@@ -1,0 +1,17 @@
+{
+  "name": "parcel-devon-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "parcel build src/index.js && node dist/index.js",
+    "clean": "rimraf dist .parcel-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.7.0",
+    "rimraf": "^3.0.2"
+  }
+}
